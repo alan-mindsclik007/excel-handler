@@ -1,0 +1,10 @@
+node_modules
+release
+logs
+db_data
+release
+uploads
+evt_ms_config/uploads/database/excelSheet
+*.tgz
+*.zip
+.DS_Store

@@ -1,0 +1,20 @@
+{
+  "name": "excelhandler",
+  "version": "1.0.0",
+  "description": "This package is used to import or export xlsx/csv file.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "XLSX",
+    "CSV File",
+    "Xlsx File"
+  ],
+  "author": "Alankar Awadhiya",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "xlsx": "^0.18.5"
+  }
+}
