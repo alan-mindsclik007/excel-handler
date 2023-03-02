@@ -129,6 +129,7 @@ class excelHandler {
             if(!sheetName) sheetName = "Sheet1";
             if(!arrFieldNames) arrFieldNames = [];
             if(!isLastSheet) isLastSheet = false;
+            if(!isMultipleSheets) isMultipleSheets = false;
 
             // const newObj = arrData.toObject();
             const txt = JSON.stringify(arrData);

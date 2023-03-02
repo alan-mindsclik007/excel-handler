@@ -31,11 +31,11 @@ The `config` is an objects which have the following properties:
         /* What are the rows you want to export ? */
         arrData: Array,
         /* What is you sheet name ? */
-        sheetName: String,
+        sheetName: String, // Optional for single sheet
         /* Is this your last sheet ? */
-        isLastSheet: Boolean,
+        isLastSheet: Boolean, // Optional for single sheet
         /* Do you want generate Excelsheet with having Multiple Sheets ? */
-        isMultipleSheets: Boolean  // if true, the more than one sheet
+        isMultipleSheets: Boolean  // if true, the more than one sheet, And Optional for single sheet
     };
 ```
 
