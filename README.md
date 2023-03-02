@@ -41,7 +41,7 @@ try {
         arrData: users,
         sheetName: "users"
     };
-    await jsonConverter.exportSheets(config);
+    await excelHandler.exportSheets(config);
 }catch (err) {
     console.log(`err: `, err);
     throw err;
@@ -75,7 +75,7 @@ try {
         sheetName: "users",
         isMultipleSheets: true
     };
-    await jsonConverter.exportSheets(config1);
+    await excelHandler.exportSheets(config1);
 
     const config2 = {
         arrData: students,
@@ -83,7 +83,7 @@ try {
         isLastSheet: true,
         isMultipleSheets: true
     }
-    await jsonConverter.exportSheets(config2);
+    await excelHandler.exportSheets(config2);
 
 }catch (err) {
     console.log(`err: `, err);
