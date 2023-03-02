@@ -22,6 +22,23 @@ By default, the module supports `require`:
 var ExcelHandler = require("alan-excel-handler");
 ```
 
+_Excel Properties_
+
+The `config` is an objects which have the following properties:
+
+```typescript
+    const config = {
+        /* What are the rows you want to export ? */
+        arrData: Array,
+        /* What is you sheet name ? */
+        sheetName: String,
+        /* Is this your last sheet ? */
+        isLastSheet: Boolean,
+        /* Do you want generate Excelsheet with having Multiple Sheets ? */
+        isMultipleSheets: Boolean  // if true, the more than one sheet
+    };
+```
+
 To Convert JSON Array data, and Export Excelsheet (For Single Sheet): (e.g.)
 
 ```js
@@ -90,3 +107,8 @@ try {
     throw err;
 }
 ```
+
+## License
+
+Please consult the attached LICENSE file for details.  All rights not explicitly
+granted by the Apache 2.0 License are reserved by the Original Author.
