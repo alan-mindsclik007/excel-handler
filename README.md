@@ -1,4 +1,4 @@
-# [Excelsheet Handler]
+# Excelsheet Handler
 
 The Excelsheet Handler offers battle-tested open-source solutions for converting excelsheet 
 buffer data to json data and generating new spreadsheets from JSON array data, that will work
