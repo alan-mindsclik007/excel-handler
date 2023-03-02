@@ -1,5 +1,5 @@
 {
-  "name": "excelhandler",
+  "name": "excel-handler",
   "version": "1.0.0",
   "description": "This package is used to import or export xlsx/csv file.",
   "main": "index.js",
@@ -9,7 +9,8 @@
   "keywords": [
     "XLSX",
     "CSV File",
-    "Xlsx File"
+    "Xlsx File",
+    "Alankar Awadhiya"
   ],
   "author": "Alankar Awadhiya",
   "license": "ISC",
