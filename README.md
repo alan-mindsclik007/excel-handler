@@ -49,9 +49,9 @@ const info = {path: path};
 const excelHandler = new ExcelHandler(info);
 try {
     const users = [
-        { name: "John", age: 25, email: "john@example.com" },
-        { name: "Mary", age: 30, email: "mary@example.com" },
-        { name: "Jane", age: 35, email: "jane@example.com" }
+        { name: "Alankar Awadhiya", age: 27, email: "alanawadhiya007@gmail.com" },
+        { name: "Atul", age: 25, email: "atulawadhiya@example.com" },
+        { name: "Niharika", age: 35, email: "niharikaawadhiya@example.com" }
     ];
 
     const config = {
@@ -75,16 +75,20 @@ const info = {path: path};
 const excelHandler = new ExcelHandler(info);
 try {
     const users = [
-        { name: "John", age: 25, email: "john@example.com" },
-        { name: "Mary", age: 30, email: "mary@example.com" },
-        { name: "Jane", age: 35, email: "jane@example.com" }
+        { name: "Alankar Awadhiya", age: 27, email: "alanawadhiya007@gmail.com" },
+        { name: "Atul", age: 25, email: "atulawadhiya@example.com" },
+        { name: "Niharika", age: 35, email: "niharikaawadhiya@example.com" }
     ];
     
     const students = [
-        { rollNo: 1, name: "Alice", grade: 85 },
-        { rollNo: 2, name: "Bob", grade: 92 },
-        { rollNo: 3, name: "Charlie", grade: 70 },
-        { rollNo: 4, name: "David", grade: 88 }
+        { rollNo: 1, name: "Atul", grade: 85 },
+        { rollNo: 2, name: "Ambrish", grade: 75 },
+        { rollNo: 3, name: "Aniruddha", grade: 72 },
+        { rollNo: 4, name: "Alice", grade: 70 }
+        { rollNo: 5, name: "Aakash", grade: 65 }
+        { rollNo: 6, name: "Anuraag", grade: 88 }
+        { rollNo: 7, name: "Alankar", grade: 95 },
+        { rollNo: 8, name: "Anmol", grade: 70 }
     ];
 
     const config1 = {
